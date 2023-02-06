@@ -22,7 +22,7 @@ for (int i = 0; i < Array.Length; i++)
     }
 
 string [] Arrayfind = new string[Array.Length];
-Console.WriteLine(count);
+Console.WriteLine($"количество слов с символами меньше или равным 3 равно {count}");
 Console.WriteLine(String.Join("+ ", Arrayfind));
 Console.WriteLine("Первый массив");
 
